@@ -55,7 +55,12 @@ button:focus{
 
 /* layout 2 styles */
 #layout-2{
-    display: grid;
+    display: none;
     grid-template-columns: repeat(3, 30vw);
 }
 
+/* layout 3 styles  */
+#layout-3{
+    display: none;
+    grid-template-columns: repeat(1, 1fr);
+}
