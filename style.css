@@ -50,17 +50,38 @@ button:focus{
 #layout-1{
     display: grid;
     grid-template-columns: 1;
-    gap: 2.5rem;
+    gap: 2rem;
 }
+/* #layout-1 .card{
+    height: 9.3rem;
+} */
+
 
 /* layout 2 styles */
 #layout-2{
     display: none;
-    grid-template-columns: repeat(3, 30vw);
+    grid-template-columns: repeat(3, 24rem);
+    gap: 2rem;
+}
+#layout-2 .card{
+    height: 18.5rem;
 }
 
 /* layout 3 styles  */
 #layout-3{
     display: none;
     grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+}
+
+#middle-div{
+    display: grid;
+    grid-template-columns: 25vw 40vw 25vw;
+    /* column-gap: 2rem; */
+}
+#middle-div .card{
+    height: 27rem;
+}
+#l-3-card2, #l-3-card3{
+margin-right: 2rem;
 }
