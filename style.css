@@ -24,11 +24,6 @@ body {
 .card h2{
     color: white;
 }
-#layout-1{
-    display: grid;
-    grid-template-columns: 1;
-    gap: 2.5rem;
-}
 button{
     background-color: var(--light-grey);
     width: 10rem;
@@ -48,5 +43,19 @@ button:hover{
 button:focus{
     background-color: var(--dark-grey);
     color: white;
+}
+
+/* layout 1 styles */
+
+#layout-1{
+    display: grid;
+    grid-template-columns: 1;
+    gap: 2.5rem;
+}
+
+/* layout 2 styles */
+#layout-2{
+    display: grid;
+    grid-template-columns: repeat(3, 30vw);
 }
 
