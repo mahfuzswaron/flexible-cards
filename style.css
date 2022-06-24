@@ -1,0 +1,25 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+:root {
+    --light-grey: #e0e0e0;
+    --dark-grey: #606060;
+    --red-bg: #da1e5d;
+}
+.card{
+    background-color:var(--red-bg);
+    min-height: 9rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card h2{
+    color: white;
+}
+#layout-1{
+    display: grid;
+    grid-template-columns: 1;
+    gap: 3rem;
+}
