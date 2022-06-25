@@ -42,7 +42,15 @@ function animateCards() {
 
     }
 
-    // animates 
+    // animates rest 2 elements in layout 3
+    const layout3Cards = layout3.children;
+    for (let i = 0; i < layout3Cards.length; i++) {
+        const card = layout3Cards[i];
+        if (card.id !== "middle-div") {
+            card.classList.add("animate__animated", "animate__slideInLeft")
+            card.style.setProperty('--animate-duration', '2s');
+        }
+    }
 
 
 }
