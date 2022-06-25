@@ -21,7 +21,7 @@ function displayLayout3() {
 
 function animateCards() {
 
-    // animates all cards in layout 1
+    // animates layout 1
     for (let i = 0; i < cards.length; i++) {
         const card = cards[i];
         card.style.setProperty('--animate-duration', '2s');
@@ -31,6 +31,19 @@ function animateCards() {
         else {
             card.classList.add("animate__animated", "animate__slideInRight")
         }
+
+    }
+    // animates layout 2
+    const layout2Cards = layout2.children;
+    for (let i = 0; i < layout2Cards.length; i++) {
+        const card = layout2Cards[i];
+        if (i < 3) {
+            card.classList.add("animate__animated", "animate__slideInLeft")
+        }
+        else {
+            card.classList.add("animate__animated", "animate__slideInRight")
+        }
+        card.style.setProperty('--animate-duration', '2s');
 
     }
 
