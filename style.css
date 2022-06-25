@@ -6,9 +6,7 @@ body {
     --light-grey: #e0e0e0;
     --dark-grey: #606060;
     --red-bg: #da1e5d;
-    padding-left: 4rem;
-    padding-right: 4rem;
-    padding-top: 5rem;
+    padding: 5rem 4rem;
 }
 #nav{
     margin-bottom: 1.75rem;
@@ -52,10 +50,6 @@ button:focus{
     grid-template-columns: 1;
     gap: 2rem;
 }
-/* #layout-1 .card{
-    height: 9.3rem;
-} */
-
 
 /* layout 2 styles */
 #layout-2{
@@ -77,11 +71,12 @@ button:focus{
 #middle-div{
     display: grid;
     grid-template-columns: 25vw 40vw 25vw;
-    /* column-gap: 2rem; */
 }
 #middle-div .card{
     height: 27rem;
 }
-#l-3-card2, #l-3-card3{
-margin-right: 2rem;
+
+#l-3-card3{
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
